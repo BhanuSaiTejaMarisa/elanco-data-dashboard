@@ -1,0 +1,19 @@
+.Pagination {
+  display: flex;
+  gap: 0.5rem;
+  width: fit-content;
+  margin: 1rem auto;
+
+  .pages {
+    cursor: pointer;
+    padding: 0.25rem;
+
+    &.active {
+      background-color: antiquewhite;
+    }
+
+    &:hover {
+      background-color: antiquewhite;
+    }
+  }
+}
