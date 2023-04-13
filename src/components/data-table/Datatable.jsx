@@ -49,11 +49,11 @@ export default function Datatable({ columns, data }) {
                       ? column.isSortedDesc
                         ? ' 🔽'
                         : ' 🔼'
-                      : ''}
+                      : '↕️'}
                     {column.canGroupBy ? (
                       // If the column can be grouped, let's add a toggle
                       <span {...column.getGroupByToggleProps()}>
-                        {column.isGrouped ? '🛑 ' : '👊 '}
+                        {column.isGrouped ? '🔀 ' : ' 🗂️ '}
                       </span>
                     ) : null}
                   </span>
